@@ -1,0 +1,9 @@
+# It contains all the configs required in the project
+
+artifacts:
+  artifacts_dir: artifacts
+  input_path: input
+  input_file: input.png
+  detector_backend: mtcnn
+  embedding_model: Facenet
+  target_size: (224, 224)
